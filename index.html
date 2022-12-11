@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Page</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a href="index.html">Home</a>
+         <a href="#about">About</a>
+         <a href="#team">Our Team</a>
+      </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                     <div class="sea_icon d_none ">
+                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/atitus.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                     <div class="right_bottun">
+                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1>Vitória Vieira</h1>
+                           <a class="read_more" href="#">About Us</a>
+                           <ul class="social_team">
+                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <span>Tópicos especiais em programação</span>
+                           <a class="read_more" href="#">About Us</a>
+                           <ul class="social_team">
+                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1>Ciência da Computação</h1>
+                           <span>Atitus</span>
+                           <a class="read_more" href="#">About Us</a>
+                           <ul class="social_team">
+                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- about section -->
+      <div id="about" class="about">
+         <div class="container">
+            <div class="row ">
+               <div class="col-md-5">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2>React</h2>
+                           <p> O React é uma biblioteca JavaScript criada pela equipe do Facebook e lançada em maio de 2013. Os desenvolvedores tinham dificuldades para sincronizar as diferentes atualizações que ocorriam simultaneamente na tela do usuário.  </p>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="about_img">
+                           <figure><img class='imagem1' src="images/about_2.jpg" alt="#"/></figure>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="about_right">
+                     <figure><img src="images/about_right.jpg" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section -->
+      <!-- software section -->
+      <div class="software">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="titlepage">
+                     <h2>SPA</h2>
+                     <p id="BOX_SPA">SPA é o conceito usado para aplicações web que carregam uma página HTML simples e em seguida atualiza a página dinamicamente em vez de carregar novas páginas. Após o carregamento da página inicial a aplicação SPA comunica com o servidor por meio de solicitações AJAX (Asynchronous JavaScript and XML.</p>
+                     <button class="read_more" href="#" onclick="ChangeTextBox()" id="ChangeTextBox">Click here</button>
+                  </div>
+               </div>
+               <div class="col-md-6 padding_right2">
+                  <div class="software_img">
+                     <figure><img src="images/software_img.jpg" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- software section -->
+      <!-- We Do section -->
+      <!-- end We Do section -->
+      <!-- Our  team section -->
+      <div id="team" class="team">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Our Team</h2>
+                     <p>Conheça nosso time 
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="team_box">
+                     <figure><img src="images/team_img1.jpeg" alt="#"/></figure>
+                     <div class="social_box">
+                        <ul class="social_team">
+                           <li><a href="https://www.facebook.com/atituseducacao"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                           <li><a href="https://twitter.com/atituseducacao"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                           <li><a href="https://www.linkedin.com/school/atituseducacao/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                           <li><a href="https://www.instagram.com/atitus_educacao/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <h3>Vitória Vieira</h3>
+                        <p>Software</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end Our  team section -->
+      <!-- contact section -->
+      <!-- end testimonial section -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <h3>Useful links</h3>
+                     <p>Projeto da disciplina de Tópicos especiais em Programação - React</p>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="fid_box">
+                        <h3>ATITUS  </h3>
+                        <ul class="location_icon">
+                           <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Rua Sen. Pinheiro 304 (Vila Rodrigues) <br>Passo Fundo</li>
+                           <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br>
+                              (51) 4004-4818<br>
+                           </li>
+                           <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> https://www.atitus.edu.br/</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <h3 class="redes">Redes Sociais </h3>
+                     <ul class="social_icon">
+                        <li><a href="https://www.facebook.com/atituseducacao"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/atituseducacao"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/school/atituseducacao/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/atitus_educacao/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidepanel").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidepanel").style.width = "0";
+         }
+      </script>
+      <script>
+         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+         // Australia.
+         function initMap() {
+           var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 11,
+             center: {lat: 40.645037, lng: -73.880224},
+             });
+         
+         var image = 'images/maps-and-flags.png';
+         var beachMarker = new google.maps.Marker({
+             position: {lat: 40.645037, lng: -73.880224},
+             map: map,
+             icon: image
+           });
+         }
+      </script>
+      <!-- google map js -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js --> 
+   </body>
+</html>
+
